@@ -1,4 +1,4 @@
-function Display(posts){
+function Display({posts}){
     return(
         <>
         {posts.map}
