@@ -1,13 +1,18 @@
 import React from 'react'
+import DeletePost from './DeletePost.jsx'
+import PostsContent from './PostsContent.jsx'
 
-const PostsContent = () => {
-    const [posts,setPosts]=useState([])
-    
+
+const PostsContents = () => {
+
   return (
     <div>
+        <h2>Posts</h2>
+        
+          
       
     </div>
   )
 }
 
-export default PostsContent
+export default PostsContents

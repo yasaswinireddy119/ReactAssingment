@@ -1,3 +1,5 @@
+import PostsContent from "./PostsContent";
+
 function UpdatePost({post}){
     const {UpdatePost}=usePosts()
     return(

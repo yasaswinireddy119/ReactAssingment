@@ -1,10 +1,12 @@
+import PostsContent from "./PostsContent";
+
 function DeletePost(){
     const {posts,deletePost}=usePosts();
     return(
         <>
         <h2>All posts</h2>
-        {posts.length === 0 && <p>No posts available</p>}
-        {posts.map((posts)=>(
+        {PostsContent.length === 0 && <p>No posts available</p>}
+        {PostsContent.map((posts)=>(
             <div ket={posts.id}>
                 <h4>{posts.title}</h4>
                 <p>
