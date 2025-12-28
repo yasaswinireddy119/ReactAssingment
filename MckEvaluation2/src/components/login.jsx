@@ -19,7 +19,7 @@ function Login(){
         }
         useEffect(()=>{
             if(isAuth){
-                alert(""Login success"")
+                alert("Login success")
                 navigator("/admin")
             }
         },[isAuth,navigate])
